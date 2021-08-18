@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989819526903",
+    "project_id": "multipleuses-bb18e",
+    "storage_bucket": "multipleuses-bb18e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989819526903:android:df5536f645b2ccbb917df2",
+        "android_client_info": {
+          "package_name": "com.example.multipleuses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989819526903-umeeta7af8q4h6gbeb7m0dppchnnnsb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJYkFHIziMpz2usis_BB4QnwPBJNirhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989819526903-umeeta7af8q4h6gbeb7m0dppchnnnsb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
