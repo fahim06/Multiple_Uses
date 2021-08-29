@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="40dp"
+    android:padding="40sp"
     tools:context=".SignupActivity">
 
     <EditText
@@ -17,7 +17,8 @@
         android:hint="@string/email"
         android:inputType="text"
         android:textSize="15sp"
-        tools:ignore="TextFields" />
+        tools:ignore="TextFields"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/password"
@@ -26,7 +27,8 @@
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/confirmPassword"
@@ -35,12 +37,13 @@
         android:ems="10"
         android:hint="@string/confirm_password"
         android:inputType="textPassword"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/signup"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="60sp"
         android:text="@string/signup"
         app:backgroundTint="@color/signup1" />
 

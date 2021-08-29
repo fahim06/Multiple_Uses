@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="40dp"
+    android:padding="40sp"
     tools:context=".LoginActivity">
 
     <EditText
@@ -17,7 +17,8 @@
         android:hint="@string/email"
         android:inputType="text"
         android:textSize="15sp"
-        tools:ignore="TextFields" />
+        tools:ignore="TextFields"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/password"
@@ -26,26 +27,28 @@
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="120dp"
+        android:layout_width="120sp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="32sp"
         android:layout_marginTop="5sp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="32sp"
         android:text="@string/login"
         app:backgroundTint="@color/login" />
 
     <Button
         android:id="@+id/signup"
-        android:layout_width="120dp"
+        android:layout_width="120sp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="32sp"
         android:layout_marginTop="5sp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="32sp"
         android:onClick="signupButton"
         android:text="@string/signup"
-        app:backgroundTint="@color/black" />
+        app:backgroundTint="@color/black"
+        tools:ignore="UsingOnClickInXml" />
 </LinearLayout>
