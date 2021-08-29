@@ -25,9 +25,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mySpinner.setAdapter(myAdapter);
         mySpinner.setOnItemSelectedListener(this);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.simple_view, R.id.textviewID, options);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.simple_view, R.id.textviewID, options);
         mySpinner.setAdapter(adapter);
-
 
     }
 
